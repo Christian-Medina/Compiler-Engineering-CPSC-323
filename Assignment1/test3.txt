@@ -1,0 +1,35 @@
+[* This code is more than 20 lines *]
+
+function countDown (count : int)
+{
+    while (count > 0)
+	{
+		put(count);
+		count = count - 1;
+	}
+	whileend
+}
+
+function add (a : int, b : int)
+{
+	return (a + b);
+}
+
+function addf (a : float, b : float)
+{
+	return (a + b);
+}
+
+$$
+     int    count;      [* declarations *]
+	 
+     get (count);
+     
+	 countDown (count);
+	 
+	 put (add(5, 3));
+	 
+	 put (add(7,9));
+	
+	 put (addf(7.02,9.54));
+ $$

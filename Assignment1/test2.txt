@@ -1,0 +1,10 @@
+$$
+     int count;      [* declarations *]
+	 count = 10;
+     while (count  >  0 )  [* Count down from 10 *]
+         {                                 
+			count = count - 1;
+			put(count);
+         } 
+      whileend
+ $$
